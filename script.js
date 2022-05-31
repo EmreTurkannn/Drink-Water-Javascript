@@ -27,21 +27,21 @@ else{
 
 });    
 
-// updatebigcup();
-// }
+updatebigcup();
+}
 
-// function updatebigcup(){
-// const selectedcup=document.querySelectorAll(".cup-small.full").length;
-// const totalcup=document.querySelectorAll(".cup-small").length;
+function updatebigcup(){
+const selectedcup=document.querySelectorAll(".cup-small.full").length;
+const totalcup=document.querySelectorAll(".cup-small").length;
 
-// if(selectedcup===0){
-//     percentage.style.visibility='hidden';
-//     percentage.style.height=0;
-// }
-// else{
-//     percentage.style.visibility='visible';
-//     percentage.style.height=`${selectedcup/totalcup*330}px`;
+if(selectedcup===0){
+    percentage.style.visibility='hidden';
+    percentage.style.height=0;
+}
+else{
+    percentage.style.visibility='visible';
+    percentage.style.height=`${selectedcup/totalcup*330}px`;
 
-// }    
+}    
 
 }
